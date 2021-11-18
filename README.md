@@ -38,4 +38,4 @@ or
 ```
 $ sudo pacman -S python-yaml
 ```
-### More websites will be added soon!
+### More websites will be added soon! If you have any suggestions please message or merge request!
