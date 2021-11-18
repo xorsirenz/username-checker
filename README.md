@@ -2,7 +2,7 @@
 A simple username checker for many popular sites.
 
 <p align="center">
-    <img src="https://github.com/madison-craig/username-checker/blob/main/screenshotusernamechecker.png">
+    <img src="https://github.com/madison-craig/username-checker/blob/main/ss-usernamechecker.png">
 </p>
 
 ### Available websites to check:
