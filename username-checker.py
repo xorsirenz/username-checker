@@ -47,7 +47,7 @@ def banner():
     print ('      |____|__|__|_____|____|__|__|_____|__|         ')     
     print ('                                                     ')
     print (C+'              '+C+' Created by: Madison')
-    print (P+'             GitHub: ['+C+'madison-craig'+P+']')
+    print (P+'             GitHub: ['+C+'madison-isa'+P+']')
     print ('')
 
 def main():
