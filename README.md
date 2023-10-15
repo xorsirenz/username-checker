@@ -2,7 +2,7 @@
 A simple username checker for many popular sites.
 
 <p align="center">
-    <img src="https://github.com/x3-madison/username-checker/blob/main/usernamechecker.png">
+    <img src="https://github.com/bootlegwifi/username-checker/blob/main/usernamechecker.png">
 </p>
 
 ### Available websites to check:
@@ -25,7 +25,7 @@ A simple username checker for many popular sites.
 ## Install
 To install and use Username-Checker, you can build locally:
 ```
-git clone https://github.com/x3-madison/username-checker.git
+git clone https://github.com/bootlegwifi/username-checker.git
 cd username-checker/
 python3 username-checker.py
 ```
