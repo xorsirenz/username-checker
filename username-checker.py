@@ -7,7 +7,6 @@ import requests
 W  = '\033[0m'  # white (default)
 P  = '\033[1;35m' # purple
 C  = '\033[1;36m' # cyan
-    
 
 def checker():
     handle = input(C+' Type ['+P+'exit'+C+'] to close the program\n \n Enter a username to search:\n \n > '+W)
@@ -28,8 +27,6 @@ def checker():
                 print(P+'Available for:   '+W+'' + url)
         main()
 
-
-
 def banner():
     try:
         os.system('cls')
@@ -40,11 +37,11 @@ def banner():
     print (' .--.--.-----.-----.----.-----.---.-.--------.-----. ')
     print (' |  |  |__ --|  -__|   _|     |  _  |        |  -__| ')
     print (' |_____|_____|_____|__| |__|__|___._|__|__|__|_____| ')
-    print ('                                                     ')                                                
+    print ('                                                     ')
     print ('            __               __                      ')
-    print ('      .----|  |--.-----.----|  |--.-----.----.       ')    
-    print ('      |  __|     |  -__|  __|    <|  -__|   _|       ')   
-    print ('      |____|__|__|_____|____|__|__|_____|__|         ')     
+    print ('      .----|  |--.-----.----|  |--.-----.----.       ')
+    print ('      |  __|     |  -__|  __|    <|  -__|   _|       ')
+    print ('      |____|__|__|_____|____|__|__|_____|__|         ')
     print ('                                                     ')
     print (C+'              '+C+' Created by: Madison')
     print (P+'               GitHub: ['+C+'bootlegwifi'+P+']')
