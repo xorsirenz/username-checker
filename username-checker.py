@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import os
-import yaml
+import json
 import requests
 
 # colors
@@ -14,8 +14,8 @@ def checker():
     if handle == 'exit':
         exit()
     else:
-        with open('websites.yml') as f:
-            data = yaml.safe_load(f)
+        with open('websites.json', 'r') as f:
+            data = json.load(f)
             links = data['sites']
 
         weblinks = ["{}{}".format(i,handle) for i in links]
