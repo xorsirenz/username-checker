@@ -22,7 +22,7 @@ A simple username checker for many popular sites.
 ## Install
 To install and use Username-Checker, you can build locally:
 ```
-git clone https://github.com/bootlegwifi/username-checker.git
+git clone https://github.com/xorsirenz/username-checker.git
 cd username-checker/
 python3 username-checker.py
 ```
