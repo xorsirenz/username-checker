@@ -1,9 +1,6 @@
 ## Username-Checker
 A simple username checker for many popular sites.
 
-<p align="center">
-    <img src="https://github.com/bootlegwifi/username-checker/blob/main/usernamechecker.png">
-</p>
 
 ### Available websites to check:
 - Github
