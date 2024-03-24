@@ -9,10 +9,8 @@ P  = '\033[1;35m' # purple
 C  = '\033[1;36m' # cyan
 
 def checker():
-    handle = input(C+' Type ['+P+'exit'+C+'] to close the program\n \n Enter a username to search:\n \n > '+W)
-    if handle == 'exit':
-        exit()
-    else:
+    try:
+        handle = input(P+' Enter a username to search:\n \n > '+W)
         with open('websites.json', 'r') as f:
             data = json.load(f)
             links = data['sites']
@@ -26,6 +24,8 @@ def checker():
             else:
                 print(P+'Available for:   '+W+'' + url)
         main()
+    except KeyboardInterrupt:
+        exit()
 
 def banner():
     try:
@@ -34,16 +34,13 @@ def banner():
     except Exception:
         os.system('clear')
     print (C+'')
-    print (' .--.--.-----.-----.----.-----.---.-.--------.-----. ')
-    print (' |  |  |__ --|  -__|   _|     |  _  |        |  -__| ')
-    print (' |_____|_____|_____|__| |__|__|___._|__|__|__|_____| ')
-    print ('                                                     ')
-    print ('            __               __                      ')
-    print ('      .----|  |--.-----.----|  |--.-----.----.       ')
-    print ('      |  __|     |  -__|  __|    <|  -__|   _|       ')
-    print ('      |____|__|__|_____|____|__|__|_____|__|         ')
-    print ('                                                     ')
-    print (C+'              '+C+' Created by: Madison')
+    print (P+' .--.--.-----.-----.----.-----.---.-.--------.-----. ')
+    print (P+' |  |  |__ --|  -__|   _|     |  _  |        |  -__| ')
+    print (P+' |_____|_____|_____|__| |__|__|___._|__|__|__|_____| ')
+    print (P+'      .----|  |--.-----.----|  |--.-----.----.       ')
+    print (P+'      |  __|     |  -__|  __|    <|  -__|   _|       ')
+    print (P+'      |____|__|__|_____|____|__|__|_____|__|         ')
+    print ('                                                       ')
     print (P+'               GitHub: ['+C+'xorsirenz'+P+']')
     print ('')
 
